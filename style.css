@@ -35,10 +35,12 @@ a {
 }
 
 .degrade{
-    background: linear-gradient(to right, purple, yellow);
+    background: linear-gradient(to right, purple, rgb(115, 115, 108));
 }
 
 /*HESTILIZAÇÕES HEADER */
+
+
 
 header{
     text-align: center;
