@@ -46,6 +46,7 @@ header{
 
 header img{
     max-width: 120px;
+    border-radius: 80%;
 }
 
 header h1 {
@@ -75,14 +76,25 @@ a.link button{
     font-size: 1.2em;
     cursor: pointer;
     color: aliceblue;
+    transition: .1s;
 
 }
 
-a.link img{
-    height: 30px;
-    color: aliceblue;
+a.link button:hover footer a.btnfooter:hover {
+    transform: scale(1.1);
 }
 
-a .degrade :hover{
-    transform: scale(1.05);
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+footer a.btnfooter{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
 }
