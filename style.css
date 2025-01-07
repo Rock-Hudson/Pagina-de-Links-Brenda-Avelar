@@ -13,8 +13,12 @@ html{
 }
 
 body{
-    background-color: rgb(255, 118, 255);
+    background-color: blueviolet;
     height: 100%;
+}
+
+.fundo{
+    background-image: none;
 }
 
 .container{
