@@ -80,7 +80,7 @@ a.link button{
 
 }
 
-a.link button:hover footer a.btnfooter:hover {
+a.link button:hover, footer a.btnfooter:hover {
     transform: scale(1.1);
 }
 
